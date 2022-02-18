@@ -1,0 +1,96 @@
+section#corpo {
+    width: 98.8%;
+    height: 98.8%;
+    position: absolute;
+    z-index: 2;
+    overflow: scroll;
+    /* transform: rotate(40deg); */
+    /* transform: rotateX(40deg); */
+}
+
+div#população {
+    font: normal 15pt arial;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    position: absolute;
+    left: calc(35% - 50px);
+    top: calc(7% - 20px);
+    z-index: 3
+}
+
+input#zom {
+    background-color: rgba(82, 82, 82, 0.342);
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    position: absolute;
+    z-index: 3;
+    left: calc(100% - 150px);
+}
+
+div#construção {
+    font: normal 20pt arial;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    z-index: 3;
+    width: 130px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: groove;
+    background-color: yellow;
+    box-shadow: 2px 2px 2px black;
+    /* filter: drop-shadow(0 -6mm 4mm rgb(160, 0, 210)); */
+}
+
+img#imgSelecionado {
+    width: 50px;
+    height: 50px;
+    border-style: groove;
+    /* font-size: 25px; */
+    /* color: red; */
+    position: absolute;
+    left: 25px;
+    top: 60px;
+    z-index: 4;
+    display: none;
+}
+
+section#casa {
+    position: absolute;
+    z-index: 4;
+    width: 200px;
+    height: 300px;
+    background-color: rgb(17, 83, 83);
+    border-radius: 10%;
+    border-style: dotted;
+    overflow: scroll;
+    display: none;
+    /* align-items: center; */
+}
+
+div#secCasaCancel {
+    font-size: 25px;
+    color: red;
+    width: 100px;
+    height: 25px;
+    border-radius: 10%;
+    background-color: yellow;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+/* div#cas {
+    position: absolute;
+    left: calc(50% - 70px);
+} */
+
+img#imgCas {
+    width: 70px;
+}

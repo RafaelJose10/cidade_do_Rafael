@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> construa uma cidade prospera </title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js"></script>
+    <style></style>
+    <script></script>
+</head>
+
+<body>
+    <section id="corpo"> </section>
+    <input id='zom' type="button" value="+zom">
+
+    <div id="população"> poulação: 00</div>
+
+    <div id="construção" onclick="adc_casa('block')"> construção </div>
+    <!-- <div id="selecionado">  -->
+    <img id="imgSelecionado" src="" alt="" onclick="desSelecionar('none')">
+    <!-- Rafael x</div> -->
+
+
+    <section id="casa">
+        <div id="secCasaCancel" onclick="adc_casa('none')"> cancelar </div>
+        <div id="cas" onclick="tipocasa('1')"> <img id="imgCas" src="casa1.png" alt=""> <br> casa 1 </div>
+        <div id="cas" onclick="tipocasa('2')"> <img id="imgCas" src="casa2.png" alt=""> <br> casa 2 </div>
+        <div id="cas" onclick="tipocasa('3')"> <img id="imgCas" src="casa3.png" alt=""> <br> casa 3 </div>
+        <div id="cas" onclick="tipocasa('4')"> <img id="imgCas" src="casa4.png" alt=""> <br> casa 4 </div>
+        <div id="cas" onclick="tipocasa('5')"> <img id="imgCas" src="casa5.png" alt=""> <br> casa 5 </div>
+        <div id="cas" onclick="tipocasa('6')"> <img id="imgCas" src="casa6.png" alt=""> <br> casa 6 </div>
+    </section>
+</body>
+
+</html>
