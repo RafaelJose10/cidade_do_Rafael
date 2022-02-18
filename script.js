@@ -30,9 +30,9 @@ window.addEventListener('load', () => {
 
     dme = 100
 
-    for (let C = 0; C < 5; C++) {
+    for (let C = 0; C < 15; C++) {
         var terreno2 = new Array();
-        for (let c = 0; c < 5; c++) {
+        for (let c = 0; c < 15; c++) {
             var dados = {
                 n: Math.round(Math.random() * 100),
                 larg: dme,
